@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav-icon-calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="calSalario.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="main">
+    <h1>Insira o valores para o calculo de sua remuneração!</h1>
+    <hr>
+    <h2>Pagamento por quinzena e mensal</h2>
+    <p>
+        Dia 24 ao dia 06: <input type="text" placeholder="Quinzena 1 $ Bruto" id="inPrimeiraQuinzena">
+         <input type="button" value="Calcular" id="btPrimeiraQuinzena">
+        </p>
+        <pre id="outPrimeiraQuinzena"></pre>
+    <hr>
+
+    <p>
+        Dia 07 ao dia 23: <input type="text" placeholder="Quinzena 2 $ Bruto" id="inSegundaQuinzena"> 
+        <input type="button" value="Calcular" id="btSegundaQuinzena">
+    </p>
+    <pre id="outSegundaQuinzena"></pre>
+    <hr> <br> <br> <br>
+    <h3>Salário do mês com descontos</h3>
+    <p><input type="button" value="Calcular salario total" id="btSalMes"></p>
+    <pre id="outSalarioMes1"></pre>
+    <pre id="outSalarioMes2"></pre>
+    <pre id="outSalario"></pre>
+    </div>
+    <footer>Webert F Souza &COPY; 01/10/2023 - Guarulhos(SP)</footer>
+    <script src="calcSalario.js"></script>
+</body>
+</html>
